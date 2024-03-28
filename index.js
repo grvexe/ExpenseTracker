@@ -16,4 +16,8 @@ addExpenseBtn.addEventListener('click', () => {
     </tr>`
 
     expenseRecord.innerHTML += newExpense;
+
+    expenseName.value = "";
+    expenseDate.value = "";
+    expenseAmount.value = "";    
 })
