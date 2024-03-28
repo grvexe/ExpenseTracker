@@ -1,1 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+$bgcolor: linear-gradient(220.55deg, #00E0EE 0%, #AD00FE 100%);
+$fgcolor: #ffffff;
+$fcolor: #1a1a1a;
+$color1: #AD00FE;
+$color2: #00E0EE;
+
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin bgimage{
+    background-image: $bgcolor;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

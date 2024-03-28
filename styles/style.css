@@ -1,6 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: hsl(0, 0%, 90%);
-  color: hsl(0, 0%, 10%);
+  background-image: linear-gradient(220.55deg, #00E0EE 0%, #AD00FE 100%);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 700px;
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 2.5%;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+  border: solid 2px #AD00FE;
+  border-radius: 10px;
+  padding-left: 2%;
+}
+
+label {
+  font-weight: 600;
+}
+
+button {
+  width: 410px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 5%;
+  background-color: #AD00FE;
+  color: #ffffff;
+}
+
+table, tr, th, td {
+  border: solid 2px #AD00FE;
+  border-collapse: collapse;
+  padding: 2%;
+  text-align: left;
+  overflow: hidden;
+}
+
+table {
+  width: 410px;
+  height: auto;
+}
+
+th {
+  background-color: #AD00FE;
 }/*# sourceMappingURL=style.css.map */
