@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <script src="index.js" defer></script>
 </head>
 <body>
+
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <div class="expenseInput">
+            <label for="expenseName">
+                Enter an expense: <br>
+                <input type="text" id="expenseName" placeholder="i.e. Shopping">
+            </label><br>
+            
+            <label for="expenseDate">
+                Date of expense: <br>
+                <input type="date" id="expenseDate">
+            </label><br>
+            
+            <label for="expenseAmount">
+                Amount spent: <br>
+                <input type="number" id="expenseAmount" placeholder="$00.00">
+            </label><br>
+            
+            <button id="addExpense" onclick="addExpense">Add Expense</button>
+        </div>
+        <div class="expenseDisplay">
+            <table id="expenseRecord">
+                <tr>
+                    <th>No</th>
+                    <th>Date</th>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Clear</th>
+                </tr>
+            </table>
+        </div>
+    </div>
     
 </body>
 </html>
