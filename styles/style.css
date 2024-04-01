@@ -22,7 +22,7 @@ body {
   height: 700px;
   width: 500px;
   border-radius: 10px;
-  margin-top: 2.5%;
+  margin-top: 1em;
 }
 
 input {
@@ -62,5 +62,6 @@ table {
 }
 
 th {
+  color: #ffffff;
   background-color: #AD00FE;
 }/*# sourceMappingURL=style.css.map */
